@@ -1,0 +1,20 @@
+GET http://localhost:8080/v1/student/ca62f806-431b-423b-a7b8-b3e4df00b985
+Accept: application/json
+
+###
+POST http://localhost:8080/v1/student
+Content-Type: application/json
+
+{"id":  "", "firstName":  "X", "lastName":  "Y", "address":  "Z"}
+
+###
+DELETE http://localhost:8080/v1/student/ca62f806-431b-423b-a7b8-b3e4df00b985
+Accept: application/json
+
+###
+PUT http://localhost:8080/v1/student
+Content-Type: application/json
+
+{"id":  "ca62f806-431b-423b-a7b8-b3e4df00b985", "firstName":  "Y", "lastName":  "X", "address":  "Z"}
+
+###
